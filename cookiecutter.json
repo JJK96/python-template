@@ -1,0 +1,9 @@
+{
+    "project_name": "Test Project",
+    "package_name": "{{cookiecutter.project_name|lower|replace(' ', '_')}}",
+    "repo_name": "{{cookiecutter.package_name}}",
+    "binary_name": "{{cookiecutter.package_name}}",
+    "description": "This is a test package",
+    "full_name": "John Doe",
+    "repo_url": "."
+}

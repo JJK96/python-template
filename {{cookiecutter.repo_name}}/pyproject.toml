@@ -1,0 +1,19 @@
+[project]
+name = "{{cookiecutter.project_name}}"
+version = "0.1"
+dependencies = [
+    "dynaconf",   # Config files
+    "pytest",     # Tests
+    "pytest-cov", # Code coverage
+    "click"       # CLI interface
+]
+authors = [
+    { name = "{{cookiecutter.full_name}}" },
+]
+description = """{{cookiecutter.description}}"""
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = []
+
+[project.scripts]
+{{cookiecutter.binary_name}} = "{{cookiecutter.package_name}}:main"
