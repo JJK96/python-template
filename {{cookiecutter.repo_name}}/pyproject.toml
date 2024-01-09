@@ -16,4 +16,4 @@ license = {file = "LICENSE"}
 keywords = []
 
 [project.scripts]
-{{cookiecutter.binary_name}} = "{{cookiecutter.package_name}}:main"
+{{cookiecutter.binary_name}} = "{{cookiecutter.package_name}}.__main__:main"
