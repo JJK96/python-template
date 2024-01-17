@@ -19,5 +19,8 @@ Test = [
     "pytest-cov", # Code coverage
 ]
 
+[tool.setuptools]
+packages = ["{{cookiecutter.package_name}}"]
+
 [project.scripts]
 {{cookiecutter.binary_name}} = "{{cookiecutter.package_name}}.__main__:main"
